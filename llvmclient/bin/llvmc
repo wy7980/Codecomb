@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+
+TARGET=`expr $1 : '\(.*\)\.c'`
+
+clang -emit-llvm -c -g ${TARGET}.c -I../include
+../bin/instrument ${TARGET}.bc
+llc -filetype=obj newtest.bc -o newtest.o
+g++ -g -I../include -I../src -L../lib newtest.o -o ${TARGET} -lcomb -lstdc++
+cp -f ${TARGET} buginputs/

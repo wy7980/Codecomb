@@ -1,0 +1,8 @@
+llvmclient/bugtest/*.o
+llvmclient/bugtest/*.bc
+llvmclient/bugtest/last_execution
+llvmclient/bugtest/curInputs
+*~
+*/*~
+*/*/*~
+*/*/*/*~		 

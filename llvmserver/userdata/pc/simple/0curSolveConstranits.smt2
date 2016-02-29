@@ -1,0 +1,8 @@
+(set-option :print-success false)
+(set-option :produce-models true)
+(set-logic AUFNIRA)
+(declare-fun x0 () Int)
+(assert (= (- (+ (* 3 x0) 2) 8) 0))
+(check-sat)
+(get-value (x0))
+(exit)
