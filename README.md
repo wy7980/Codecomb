@@ -25,6 +25,6 @@ cd llvmclient/bugtest
 cp branch ../../llvmserver/userdata/pc/arry3/
 ../bin/net_program 0 pc arry3 10 -dfs
 
-If there any problems, inform me please.
+If there are any problems, inform me please.
 											wy7980@gmail.com
 
