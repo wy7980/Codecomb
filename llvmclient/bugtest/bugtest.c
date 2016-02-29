@@ -1,4 +1,4 @@
-#include <crest.h>
+#include <comb.h>
 #include <stdio.h>
 #include <malloc.h>
 int main(){
@@ -23,7 +23,7 @@ int main(){
 		free(q3);
 		}
 	}
-	free(q2)
+	free(q2);
 	free(q2);
 }
 
