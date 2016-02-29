@@ -1,5 +1,5 @@
 # Codecomb
-Codecomb is a software testing tool which can generate a high branch coverage  and detect defect with symbolic execution .
+Codecomb is a software testing tool which can get a high branch coverage  and detect defect with symbolic execution .
 
 # Platform
 ubuntu 14.04_x86-64
