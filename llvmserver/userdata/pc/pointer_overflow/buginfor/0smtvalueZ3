@@ -1,2 +1,2 @@
-unsat
-(error "line 17 column 15: model is not available")
+sat
+((x0 6))
