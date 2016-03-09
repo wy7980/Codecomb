@@ -24,9 +24,9 @@ cd llvmserver/bin
 **run the following commands on terminal 2.**
 ```shell
 cd llvmclient/bugtest
-../bin/llvmc arry3.c
-cp branch ../../llvmserver/userdata/pc/arry3/
-../bin/net_program 0 pc arry3 10 -dfs
+../bin/llvmc array.c
+cp branch ../../llvmserver/userdata/pc/array/
+../bin/net_program 0 pc array 10 -dfs
 ```
 If there are any problems, please inform me.
 
